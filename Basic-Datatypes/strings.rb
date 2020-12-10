@@ -15,3 +15,17 @@ greeting = "Hello how are you?"
 puts greeting
 
 # Concatenation is a way of joining two or more strings together to create a new string
+puts "Hello" + " John"
+
+language = "Spanish"
+puts "I also speak " + language
+
+
+# Another thing to note is that you cant concatenate two different data types
+name = "John"
+age = 32
+
+# puts name + " is " + age  ==> ERROR
+# The way to do this is to convert the integer age to a string. Using the .to_s method converts an integer to a string
+puts name + " is " + age.to_s
+
